@@ -32,5 +32,8 @@ A telecom operator can use a star schema to organize network usage data. The fac
 
 Resource: Dimensional modeling in Microsoft Fabric Warehouse - https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-overview
 ## Misconception in My Track
+A common misconception is that cybersecurity only means using antivirus software and strong passwords. In reality, cybersecurity also includes monitoring systems, controlling access, preparing for attacks, and responding to security incidents. For example, a 5G operator may have security tools, but an attacker could still find a weakness in the network. The operator needs to detect suspicious activity, contain the threat, and restore services safely. This shows that cybersecurity is not only about preventing attacks. It also involves preparing for incidents and reducing their impact when they happen.
 
+Resource: Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile - https://csrc.nist.gov/pubs/sp/800/61/r3/final
 ## Open Question
+How can a telecom operator make sure its 5G service stays available for emergency responders during a serious cyberattack, especially if the attack affects the network systems used to detect and stop it?
