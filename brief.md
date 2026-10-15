@@ -20,11 +20,17 @@ An offline-first mobile app can still perform important tasks when the internet 
 
 Resource: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 ## Networking
+5G network slicing allows a telecom operator to create separate virtual networks on shared physical infrastructure. Each slice can be designed for different service needs. For example, a slice for emergency responders could be configured to support their communication needs during busy periods. This can help manage network traffic, but it does not guarantee that the service will never fail. The operator still needs to monitor network performance and prepare for outages.
 
+Resource: 5G System Overview - https://www.3gpp.org/technologies/5g-system-overview
 ## Cybersecurity
+When a cyberattack threatens a 5G service, the operator needs to detect the incident, assess its impact, and contain the threat. The security team should follow an incident response plan and inform the appropriate people. After controlling the attack, the team should restore affected services safely and investigate what happened. Reviewing the incident can help the operator improve its security measures and reduce the chance of similar problems in the future.
 
+Resource: Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile - https://csrc.nist.gov/pubs/sp/800/61/r3/final
 ## Data
+A telecom operator can use a star schema to organize network usage data. The fact table can store measurements, such as data usage and dropped calls. Dimension tables can describe details such as the date, region, and service type. This structure helps the operator compare network performance across different regions and days. By analyzing the data, the operator can identify usage patterns and find areas where service quality may need improvement.
 
+Resource: Dimensional modeling in Microsoft Fabric Warehouse - https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-overview
 ## Misconception in My Track
 
 ## Open Question
